@@ -31,11 +31,9 @@ int readFile(char name[]){
 
     close(file);
     return 0;
-
 }
 
 int main(int argc, char *argv[]){
-
     if (argc == 2){
         readFile(argv[1]);
     }
